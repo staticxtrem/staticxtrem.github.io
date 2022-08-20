@@ -231,6 +231,89 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
+.containertop3{
+  background: white;
+  width: 1600px;
+}
+.puntualidad {
+  /* PUNTUALIDAD */
+
+
+position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.puntualidadcontenido {
+  /* Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados. */
+
+
+position: absolute;
+width: 270px;
+height: 96px;
+left: 515px;
+top: 820px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+color: #757575;
+}
+.planificacion {
+  /* PLANIFICACIÓN */
+
+
+position: absolute;
+width: 270px;
+height: 16px;
+left: 815px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.planificacioncontenido{
+  /* Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones. */
+
+
+position: absolute;
+width: 270px;
+height: 75px;
+left: 815px;
+top: 820px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
 .atencion {
   /* ATENCIÓN A LOS DETALLES */
 
@@ -259,7 +342,7 @@ position: absolute;
 width: 270px;
 height: 75px;
 left: 215px;
-top: 801px;
+top: 820px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -271,51 +354,133 @@ line-height: 24px;
 letter-spacing: 0.03em;
 
 color: #757575;
-
 }
+.tecnologia{
+/* TEGNOLOGÍA MODERNA */
 
-.container3 {
-width: 1600px;
-heigth: 648px;
-max-width: auto;
-dysplay: inline;
-flex-wrap: wrap;
-justify-content: center;
 
+position: absolute;
+width: 270px;
+height: 16px;
+left: 1115px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
 }
-.container3 .card{
-width: 200px;
-border-radius: 8px;
-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-overflow: hidden;
-margin: 0px;
+.tecnologiacontenido{
+/* Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales. */
+
+
+position: absolute;
+width: 270px;
+height: 75px;
+left: 1115px;
+top: 820px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.aque{
+  /* A qué nos dedicamos */
+
+
+position: absolute;
+width: 371.15px;
+height: 46.24px;
+left: 619.43px;
+top: 991px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
 text-align: center;
-transition: all 0.25s;
-float: left;
-}
-.container3 .card:hover{
-  tranform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0,0,0,0.2)
-}
-.container3 .card img{
-width: 200px;
-}
-.container3 .card h2{
-font-weight: 100;
-}
-.container3 .card a{
-  padding: 0 1rem;
-  font-size: 14px;
-  font-weight: 100;
-}
+letter-spacing: 0.03em;
 
-.card {
-max-width: 200px;
-margin-left: 20px;
-margin-right: 20px;
-border-radius: 4px;
-overflow: hidden;
-background-color: white;
-box-shadow: 0px 1px 1px 0px;
-dysplay:inline
+color: #212121;
+}
+.img1{
+/* imagen */
+
+
+position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 215px;
+top: 1092.3px;
+
+background: url(.jpg);
+mix-blend-mode: normal;
+
+}
+.img2{
+  * imagen */
+  position: absolute;
+  width: 373.16px;
+  height: 323.7px;
+  left: 618.42px;
+  top: 1092.3px;
+  
+  background: url(.jpg);
+}
+.img3{
+/* imagen */
+
+
+position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 1015px;
+top: 1092.3px;
+
+background: url(.jpg);
+}
+.containerbotton {
+  /* Sección bg */
+
+
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1510px;
+
+background: #F5F4FA;
+}
+.nuestro {
+  /* Nuestro Equipo */
+
+
+position: absolute;
+width: 263px;
+height: 42px;
+left: 669px;
+top: 1604px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
